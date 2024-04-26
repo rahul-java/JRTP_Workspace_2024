@@ -8,5 +8,6 @@ public class FlipkartOperations
     {
         int countWords = StringUtil.countWords("Hi My name is Rahul Kumar Pandey");
         System.out.println("Totl Word is String is ::: "+countWords);
+        System.out.println();
     }
 }
