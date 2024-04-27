@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    	
+  
+  <modelVersion>4.0.0</modelVersion>
+    	
+  
+  <groupId>mea</groupId>
+    	
+  
+  <artifactId>06_MavenProject_MultiModule</artifactId>
+    	
+  
+  <version>0.0.1-SNAPSHOT</version>
+    	
+  
+  <packaging>pom</packaging>
+    	
+  
+  <modules>
+        		
+    
+    <module>MathOperaionModule-1</module>
+        	  
+	<module>StudentPreparation-Module-2</module>
+          
+    
+    <module>OnlineStudentWebApp-Module-3</module>
+      
+  </modules>
+    
+
+</project>
