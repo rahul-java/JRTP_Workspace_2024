@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:05 +0530] "GET /DateWebApp1 HTTP/1.1" 302 - http-bio-3030-exec-2 0
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:07 +0530] "GET /DateWebApp1/ HTTP/1.1" 200 71 http-bio-3030-exec-3 2343
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:08 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-3030-exec-4 0
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:09 +0530] "GET /DateWebApp1/dateurl HTTP/1.1" 200 95 http-bio-3030-exec-6 4
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:12 +0530] "GET /DateWebApp1/index.jsp HTTP/1.1" 200 71 http-bio-3030-exec-7 2
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:14 +0530] "GET /DateWebApp1/dateurl HTTP/1.1" 200 95 http-bio-3030-exec-9 1
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:18 +0530] "GET /DateWebApp1/index.jsp HTTP/1.1" 200 71 http-bio-3030-exec-10 2
+0:0:0:0:0:0:0:1 - - [27/Apr/2024:17:50:20 +0530] "GET /DateWebApp1/dateurl HTTP/1.1" 200 95 http-bio-3030-exec-10 1
