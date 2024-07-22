@@ -18,11 +18,14 @@ public class ArithmeticOperationsController {
 	@GetMapping("/div")
 	public ResponseEntity<String> division() {
 
-		log.info("At the begining of division() method.");
+		//log.info("At the begining of division() method.");
+		log.trace("At the begining of division() method.");
 		try {
-			log.info("Performing Arithmetic Operation");
+			//log.info("Performing Arithmetic Operation");
+			log.trace("Performing Arithmetic Operation");
 			int result = 100 / 0;
-			log.info("Arithmetic Operation Successful");
+			//log.info("Arithmetic Operation Successful");
+			log.trace("Arithmetic Operation Successful");
 			return new ResponseEntity<String>("Result is : " + result, HttpStatus.OK);
 		} catch (Exception e) {
 			e.printStackTrace();
