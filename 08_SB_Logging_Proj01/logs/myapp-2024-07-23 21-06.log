@@ -1,0 +1,348 @@
+2024-07-23 21:06:10,038[http-nio-4041-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-23 21:06:10,052[http-nio-4041-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-23 21:06:10,052[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-07-23 21:06:10,052[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-07-23 21:06:10,053[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-07-23 21:06:10,054[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@321b0645
+2024-07-23 21:06:10,109[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7e53d45a
+2024-07-23 21:06:10,112[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-07-23 21:06:10,112[http-nio-4041-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 60 ms
+2024-07-23 21:06:10,140[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:10,172[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:10,207[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:10,207[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:10,251[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:10,253[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:10,269[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:10,409[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+2024-07-23 21:06:10,423[http-nio-4041-exec-2] DEBUG o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-23 21:06:10,430[http-nio-4041-exec-2] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2024-07-23 21:06:10,438[http-nio-4041-exec-2] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-07-23 21:06:10,438[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-07-23 21:06:10,455[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2024-07-23 21:06:10,458[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-07-23 21:06:10,518[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-07-23 21:06:10,522[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Jul 23 21:06:10 IST 2024, status=404, error=Not Found, path=/favicon.ico}]
+2024-07-23 21:06:10,656[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2024-07-23 21:06:12,516[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:12,517[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:12,518[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:12,518[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:12,530[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:12,530[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:12,532[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:12,771[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:12,772[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:12,772[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:12,772[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:12,781[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:12,782[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:12,782[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:12,887[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:12,888[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:12,888[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:12,888[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:12,889[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:12,890[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:12,891[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:13,092[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:13,093[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:13,093[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:13,093[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:13,097[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:13,097[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:13,098[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:13,208[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:13,209[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:13,209[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:13,209[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:13,213[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:13,214[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:13,217[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:13,415[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:13,416[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:13,416[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:13,417[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:13,419[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:13,420[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:13,422[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:13,513[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:13,514[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:13,515[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:13,515[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:13,518[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:13,518[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:13,520[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:13,707[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:13,707[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:13,708[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:13,708[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:13,709[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:13,709[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:13,712[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:13,818[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:13,819[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:13,819[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:13,819[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:13,824[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:13,825[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:13,831[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:14,020[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:14,021[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:14,021[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:14,022[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:14,024[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:14,024[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:14,025[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:14,120[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:14,120[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:14,121[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:14,121[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:14,122[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:14,122[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:14,123[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:14,335[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:14,336[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:14,336[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:14,337[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:14,339[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:14,340[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:14,345[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:14,442[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:14,442[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:14,443[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:14,443[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:14,446[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:14,447[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:14,449[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:14,657[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:14,657[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:14,657[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:14,658[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:14,660[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:14,660[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:14,666[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:14,766[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:14,767[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:14,767[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:14,767[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:14,771[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:14,771[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:14,773[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:14,960[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:14,962[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:14,962[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:14,962[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:14,963[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:14,964[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:14,965[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:15,091[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:15,092[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:15,092[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:15,092[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:15,097[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:15,097[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:15,099[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:15,308[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:15,309[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:15,309[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:15,312[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:15,314[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:15,315[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:15,316[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:15,404[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:15,404[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:15,406[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:15,406[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:15,411[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:15,411[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:15,414[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:15,586[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:15,586[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:15,587[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:15,587[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:15,591[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:15,591[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:15,592[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:15,703[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:15,703[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:15,704[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:15,704[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:15,705[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:15,706[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:15,707[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:15,919[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:15,919[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:15,920[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:15,920[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:15,921[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:15,921[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:15,922[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:16,029[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:16,030[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:16,030[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:16,030[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:16,032[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:16,032[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:16,033[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:16,233[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:16,234[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:16,234[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:16,234[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:16,236[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:16,237[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:16,240[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:16,351[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:16,351[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:16,352[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:16,352[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:16,353[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:16,353[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:16,355[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:16,574[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:16,574[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:16,575[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:16,575[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:16,576[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:16,578[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:16,580[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:16,664[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:16,666[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:16,666[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:16,666[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:16,668[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:16,668[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:16,671[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:16,907[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:16,907[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:16,907[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:16,907[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:16,908[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:16,908[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:16,909[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:17,025[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:17,028[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:17,029[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:17,029[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:17,030[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:17,030[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:17,033[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:17,249[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:17,250[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:17,250[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:17,251[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:17,254[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:17,254[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:17,256[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:17,357[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:17,358[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:17,358[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:17,358[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:17,363[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:17,363[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:17,365[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:17,592[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:17,592[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:17,592[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:17,592[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:17,597[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:17,598[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:17,600[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:17,779[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:17,780[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:17,780[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:17,780[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:17,782[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:17,782[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:17,783[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:18,561[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:18,561[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:18,562[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:18,562[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:18,563[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:18,563[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:18,567[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:18,708[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:18,708[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:18,709[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:18,709[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:18,712[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:18,712[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:18,713[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:18,952[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:18,953[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:18,953[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:18,953[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:18,954[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:18,954[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:18,955[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:19,432[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:19,433[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:19,433[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:19,433[http-nio-4041-exec-9] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:19,437[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:19,437[http-nio-4041-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:19,439[http-nio-4041-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:19,611[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:19,611[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:19,612[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:19,612[http-nio-4041-exec-10] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:19,613[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:19,613[http-nio-4041-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:19,615[http-nio-4041-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:19,852[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:19,852[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:19,853[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:19,853[http-nio-4041-exec-1] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:19,854[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:19,854[http-nio-4041-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:19,855[http-nio-4041-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:20,038[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:20,038[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:20,039[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:20,039[http-nio-4041-exec-2] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:20,040[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:20,040[http-nio-4041-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:20,041[http-nio-4041-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:20,344[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:20,344[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:20,345[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:20,345[http-nio-4041-exec-3] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:20,346[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:20,346[http-nio-4041-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:20,348[http-nio-4041-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:22,652[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:22,652[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:22,653[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:22,653[http-nio-4041-exec-4] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:22,654[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:22,654[http-nio-4041-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:22,655[http-nio-4041-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:22,781[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:22,781[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:22,782[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:22,782[http-nio-4041-exec-5] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:22,783[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:22,784[http-nio-4041-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:22,790[http-nio-4041-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:23,013[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:23,014[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:23,015[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:23,016[http-nio-4041-exec-6] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:23,017[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:23,018[http-nio-4041-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:23,021[http-nio-4041-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:23,134[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:23,137[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:23,138[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:23,138[http-nio-4041-exec-7] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:23,140[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:23,140[http-nio-4041-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:23,141[http-nio-4041-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-07-23 21:06:23,376[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/greet", parameters={}
+2024-07-23 21:06:23,377[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mea.rest.WishMessageOperationsController#showMessage()
+2024-07-23 21:06:23,377[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the begining of showMessage() method.
+2024-07-23 21:06:23,377[http-nio-4041-exec-8] DEBUG c.m.rest.WishMessageOperationsController - At the end of showMessage() method.
+2024-07-23 21:06:23,378[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-07-23 21:06:23,378[http-nio-4041-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Good Morning"]
+2024-07-23 21:06:23,379[http-nio-4041-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
