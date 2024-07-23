@@ -9,18 +9,30 @@
 	</appender>
 	<!-- Rolling File Appender -->
 	<appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>logs/myapp.log</file>
+		<file>logs/myAppLog.log</file>
 		<encoder>
 			<!-- <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern> -->
 			<pattern>%d[%thread] %-5level %logger{40} - %msg%n</pattern>
 		</encoder>
-		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<!-- daily rollover -->
+		
+		<!-- <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			daily rollover
 			<fileNamePattern>logs/myapp-%d{yyyy-MM-dd HH-mm}.log</fileNamePattern>
-			<!-- keep 30 days' worth of history -->
+			keep 30 days' worth of history
 			<maxHistory>30</maxHistory>
 			<totalSizeCap>3GB</totalSizeCap>
+		</rollingPolicy> -->
+		
+		<rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>logs/myAppLog-%d{yyyy-MM-dd HH-mm}.%i.log</fileNamePattern>
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+			<maxFileSize>1MB</maxFileSize>
+			<totalSizeCap>10MB</totalSizeCap>
+			<cleanHistoryOnStart>false</cleanHistoryOnStart>
 		</rollingPolicy>
+		
 	</appender>
 	<!-- Loggers -->
 	<!-- level=info/debug/trace/  -->
