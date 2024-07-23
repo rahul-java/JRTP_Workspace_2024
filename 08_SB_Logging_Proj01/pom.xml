@@ -11,7 +11,7 @@
 	<groupId>mea</groupId>
 	<artifactId>08_SB_Logging_Proj01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>08_SB_Logging_Proj01</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
